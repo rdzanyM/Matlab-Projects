@@ -1,0 +1,12 @@
+ca = [3+1i;1+1i;1i];
+cb = [7+1i;5+1i;8;6+1i];
+cc = [1i;4;2];
+cy = [2+1i;3+1i;4+1i;5+1i];
+x0 = complex(ones(4,1),ones(4,1));
+c = diag(ca, 1) + diag(cb) + diag(cc,-1);
+disp('C = ');
+disp(c);
+disp('cy = ');
+disp(cy);
+disp('x0 = ');
+disp(x0);
